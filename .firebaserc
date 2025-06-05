@@ -1,5 +1,7 @@
 {
   "projects": {
-    "default": "yt-ai-mock-interview"
-  }
+    "default": "ai-mock-interview-12873"
+  },
+  "targets": {},
+  "etags": {}
 }
