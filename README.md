@@ -2,9 +2,6 @@
 
 React AI Mock Interview is an innovative web application designed to simulate real-world mock interviews using AI. With seamless user authentication, an intuitive interface, and integration with advanced AI, this project serves as an invaluable tool for interview preparation.
 
-## Assets
-
-Please download the assets used in this projects from here : [Download](https://drive.google.com/drive/folders/1aAiHz6FApIc2IXOsq-TOHHZYcu-aAvrN?usp=drive_link)
 
 ![My Project Landing Page](./snap.png)
 
@@ -37,52 +34,6 @@ Please download the assets used in this projects from here : [Download](https://
 
 ---
 
-## Getting Started
-
-### Installation
-
-#### Clone this repository:
-
-```
-git clone https://github.com/Vetrivel-VP/react-typescript-ai-mock-interview-november-2024.git
-```
-
-#### Navigate to the project directory:
-
-```
-cd react-ai-mock-interview
-```
-
-#### Install dependencies
-
-```
-npm i -g pnpm
-pnpm install
-```
-
-#### Start the development server
-
-```
-pnpm run dev
-```
-
-#### Firebase Initialization
-
-```
-firebase init
-```
-
-#### Firebase Deploy
-
-```
-firebase deploy
-```
-
-#### Project Build
-
-```
-pnpm run build
-```
 
 ## Environment Variable
 
@@ -95,6 +46,10 @@ VITE_FIREBASE_PROJECT_ID=YOUR_API_KEY_REF
 VITE_FIREBASE_STORAGE_BUCKET=YOUR_API_KEY_REF
 VITE_FIREBASE_MESSAGING_SENDER_ID=YOUR_API_KEY_REF
 VITE_FIREBASE_APP_ID=YOUR_API_KEY_REF
+
+VITE_CLERK_PUBLISHABLE_KEY=YOUR_API_KEY_REF
+
+VITE_GEMINI_API_KEY=YOUR_API_KEY_REF
 ```
 
 ## Key Features
@@ -108,11 +63,3 @@ VITE_FIREBASE_APP_ID=YOUR_API_KEY_REF
 - Interactive Questionnaires
   Engage with diverse question types, including multiple-choice, scenario-based, and technical coding challenges.
 
-# Author
-
-## Vetrivel Ravi
-
-- Founder of Mahalakshmi Design Studioz
-- Full-Stack Web Developer with 7+ years of experience
-- YouTube Channel: [Vetrivel Ravi](https://www.youtube.com/@vetrivelravi)
-- Email: [vetrivelravi@example.com](vetrivelravi@example.com)
